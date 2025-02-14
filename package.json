@@ -1,0 +1,17 @@
+{
+  "name": "sunkoris",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Nebiyu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.6",
+    "tailwindcss": "^4.0.6"
+  },
+  "devDependencies": {}
+}
